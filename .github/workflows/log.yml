@@ -1,0 +1,46 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Node.js CI
+
+on:
+  schedule:
+    - cron: '17 16 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Use Node.js 14.4
+      uses: actions/setup-node@v1
+      with:
+        node-version: '14.4'
+    
+    - name: run 
+      run: |
+        npm install
+        day=$(date +%F)
+        node index.js > log/$day.log 2>&1
+    
+    - name: git config
+      env:
+        ACTION_DEPLOY_KEY: ${{ secrets.CLOCK_DEPLOY_KEY }}
+      run: |
+        mkdir -p ~/.ssh/
+        echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+        chmod 700 ~/.ssh
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+        git config --global user.email "herman47@vip.qq.com"
+        git config --global user.name "n-e-o-n-7"
+        
+    - name: git commit&push
+      run: |
+         git add $day.log
+         git commit -m "log"
+         git push origin master
+        
