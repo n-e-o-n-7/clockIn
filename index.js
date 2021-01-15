@@ -106,6 +106,7 @@ async function clockIn(user){
 
 (async ()=>{
     for (user of users) {
+        user.state = "失败"
         user.state = await clockIn(user)
     }
     console.log(users)
