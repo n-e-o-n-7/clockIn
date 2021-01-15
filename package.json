@@ -1,0 +1,11 @@
+{
+  "name": "clockIn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/n-e-o-n-7/clockIn.git",
+  "author": "n-e-o-n-7 <44162454+n-e-o-n-7@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
