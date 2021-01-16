@@ -8,40 +8,12 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  pull:
 
-    runs-on: ubuntu-latest
+    runs-on: clockInPull
 
     steps:
-    - uses: actions/checkout@v2
       
-    - name: Use Node.js 14.4
-      uses: actions/setup-node@v1
-      with:
-        node-version: '14.4'
-    
-    - name: run 
-      run: |
-        npm install
-        day=$(date +%F)
-        node index.js > log/$day.log 2>&1
-    
-    - name: git config
-      env:
-        ACTION_DEPLOY_KEY: ${{ secrets.CLOCK_DEPLOY_KEY }}
-      run: |
-        mkdir -p ~/.ssh/
-        echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
-        chmod 700 ~/.ssh
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan github.com >> ~/.ssh/known_hosts
-        git config --global user.email "herman47@vip.qq.com"
-        git config --global user.name "n-e-o-n-7"
-        
-    - name: git commit&push
-      run: |
-        day=$(date +%F)
-        git add log/$day.log
-        git commit -m $day
-        git push origin master
-        
+    - name: git pull 
+      run: git pull origin master
+      run: echo ${{ github.event_path }} >> log/test.log
