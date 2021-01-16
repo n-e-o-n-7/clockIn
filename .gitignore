@@ -3,7 +3,9 @@ node_modules/
 dist/
 npm-debug.log
 yarn-error.log
-
+_PipelineMapping/
+_temp/
+_tool/
 # Editor directories and files
 .idea
 *.suo
