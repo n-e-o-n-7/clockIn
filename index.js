@@ -73,8 +73,8 @@ async function clockIn(user){
             "Referer": 'http://yqdj.zucc.edu.cn/feiyan_api/h5/html/daka/daka.html;'+tjo,
             "Cookie":tjt,
 
-            "Upgrade-Insecure-Requests":"1",
-            "Content-Type": "application/json;charset=utf-8",
+            // "Upgrade-Insecure-Requests":"1",
+            // "Content-Type": "application/json;charset=utf-8",
         }
     });
     let data = {
@@ -99,8 +99,8 @@ async function clockIn(user){
         },
         "examenSchemeId": 2
     }
-    let r4 = await yq.post("/examen/examenAnswerController/commitAnswer.do?Rnd="+Math.random()+"&_="+Math.random(),data)
-    // let r4 = await yq.post("/auth/authController/getUserInfo.do?Rnd="+Math.random()+"&_="+Math.random())
+    // let r4 = await yq.post("/examen/examenAnswerController/commitAnswer.do?Rnd="+Math.random()+"&_="+Math.random(),data)
+    let r4 = await yq.post("/auth/authController/getUserInfo.do?Rnd="+Math.random()+"&_="+Math.random())
     return r4.data.message
 }
 
