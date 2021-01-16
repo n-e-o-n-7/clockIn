@@ -1,5 +1,5 @@
 day=$(date +%F)
-node index.js > log/$day.log 2>&1
+nvm run 14.4 index.js > log/$day.log 2>&1
 git add log/$day.log
 git commit -m $day
 git push origin master
