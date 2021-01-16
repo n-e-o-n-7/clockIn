@@ -17,4 +17,3 @@ jobs:
     - name: git pull 
       run: |
         git pull origin master
-        echo ${{ github.event_path }} >> log/test.log
