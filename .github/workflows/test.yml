@@ -15,5 +15,6 @@ jobs:
     steps:
       
     - name: git pull 
-      run: git pull origin master
-      run: echo ${{ github.event_path }} >> log/test.log
+      run: |
+        git pull origin master
+        run: echo ${{ github.event_path }} >> log/test.log
