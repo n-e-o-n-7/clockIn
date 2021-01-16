@@ -10,7 +10,7 @@ on:
 jobs:
   pull:
 
-    runs-on: clockInPull
+    runs-on: self-hosted
 
     steps:
       
