@@ -18,7 +18,7 @@ function getToday(){
     }
     return y + "-" + addZero(mon) + "-" + addZero(d);
 }
-async function clockIn(user){
+async function clockIn(user,today){
     const cas = axios.create({
         baseURL: 'http://ca.zucc.edu.cn',
         timeout: 1000,
@@ -80,7 +80,7 @@ async function clockIn(user){
     let data = {
         "examenTitle": "师生报平安",
         "answer": {
-            "填报日期":getToday(),
+            "填报日期":today,
             "目前所在地":user.location,
             "近14天是否有与疫情中、高风险地区人员的接触史？":"否",
             "近14天是否有与疑似、确诊人员的接触史?":"否",
@@ -105,13 +105,22 @@ async function clockIn(user){
 }
 
 (async ()=>{
+    let today = getToday()
     for (user of users) {
-        user.state = await clockIn(user)
+        let i = 0
+        while(user.state!="操作成功！"&&i<3){
+            try{
+                user.state = await clockIn(user,today)
+            }catch(error){
+                user.state = error.message   
+            }
+            i += 1
+        }
     }
     console.log(users.map(user=>{
         return {
             name:user.name,
-            state:user.state?user.state:"fail"
+            state:user.state
         }
     }))
 })()
