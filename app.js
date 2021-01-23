@@ -3,6 +3,7 @@ const body = require("koa-body")
 const fs = require("fs")
 let axios = require('axios');
 let http = require('http');
+let city = require('./city')
 const app = new Koa()
 app.use(async (ctx, next) => {
     await next();
@@ -58,7 +59,17 @@ let testPwd = async user =>{
     return r2.headers["set-cookie"].length > 1
 }
 let testLocation = l =>{
-    return l.split(" ").length === 3
+    if (typeof(l)==="string"){
+        l = l.split(" ")
+        if(l.length === 3){
+            let v = 0
+            try {
+               v = city[l[0]][l[1]][l[2]] 
+            }catch(e){}
+            return v===1
+        }
+    }
+    return false
 }
 app.use(async ctx => {
     if (ctx.method !='POST')return 
