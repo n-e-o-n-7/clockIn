@@ -119,7 +119,7 @@ async function clockIn(user,today){
     }
     console.log(users.map(user=>{
         return {
-            name:user.name,
+            name:user.name?user.name:user.id,
             state:user.state
         }
     }))

@@ -6,6 +6,8 @@
   "author": "n-e-o-n-7 <44162454+n-e-o-n-7@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0"
   }
 }
