@@ -3,3 +3,5 @@ nohup: 忽略输入
 POST /update -  { id: '31501347', location: '校内 校内 校内' }
 POST /update -  { id: '31501347', location: '校内 校内 校内' }
 POST /update -  { id: '31501347', location: '校内 校内 校内' }
+POST /update -  { id: '31501347', location: '校内 校内 校内' }
+POST /update -  { id: '31501347', location: '校内 校内 校内' }
