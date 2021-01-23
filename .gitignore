@@ -6,6 +6,8 @@ yarn-error.log
 _PipelineMapping/
 _temp/
 _tool/
+_update.sh
+_update/
 # Editor directories and files
 .idea
 *.suo
