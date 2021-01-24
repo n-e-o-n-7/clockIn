@@ -5,3 +5,18 @@ POST /update -  { id: '31501347', location: '校内 校内 校内' }
 POST /update -  { id: '31501347', location: '校内 校内 校内' }
 POST /update -  { id: '31501347', location: '校内 校内 校内' }
 POST /update -  { id: '31501347', location: '校内 校内 校内' }
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET /HNAP1/ -  {}
+GET /manager/html -  {}
+GET / -  {}
+HEAD http://110.242.68.4/ -  {}
+HEAD /robots.txt -  {}
+HEAD http://112.124.42.80:63435/ -  {}
+GET /manager/html -  {}
+GET / -  {}
+GET /manager/html -  {}
+GET / -  {}
+HEAD / -  {}
+GET / -  {}
