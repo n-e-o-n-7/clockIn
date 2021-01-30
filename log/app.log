@@ -110,3 +110,10 @@ GET / -  {}
 GET / -  {}
 GET / -  {}
 GET / -  {}
+GET /manager/html -  {}
+GET http://passport.baidu.com/ -  {}
+GET /script -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
