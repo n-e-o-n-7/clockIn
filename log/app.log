@@ -117,3 +117,23 @@ GET / -  {}
 GET / -  {}
 GET / -  {}
 GET / -  {}
+GET /script -  {}
+GET / -  {}
+GET / -  {}
+GET /manager/html -  {}
+GET / -  {}
+GET http://passport.baidu.com/ -  {}
+GET / -  {}
+GET / -  {}
+POST /update -  { id: '3170173', location: '浙江省 杭州市 余杭区' }
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET /favicon.ico -  {}
+GET /robots.txt -  {}
+GET /sitemap.xml -  {}
+GET http://example.com/ -  {}
+GET /manager/html -  {}
+GET / -  {}
+GET / -  {}
+GET /script -  {}
