@@ -137,3 +137,20 @@ GET /manager/html -  {}
 GET / -  {}
 GET / -  {}
 GET /script -  {}
+GET http://passport.baidu.com/ -  {}
+GET / -  {}
+GET /nice%20ports%2C/Tri%6Eity.txt%2ebak -  {}
+OPTIONS / -  {}
+
+  Error: Parse Error: Invalid method encountered
+
+GET http://nginx.korsangazi.com/scan.html -  {}
+GET / -  {}
+HEAD http://110.242.68.4/ -  {}
+GET / -  {}
+HEAD http://112.124.42.80:63435/ -  {}
+HEAD http://112.124.42.80:63435/ -  {}
+GET / -  {}
+GET /nice%20ports%2C/Tri%6Eity.txt%2ebak -  {}
+OPTIONS / -  {}
+GET / -  {}
