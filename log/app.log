@@ -154,3 +154,15 @@ GET / -  {}
 GET /nice%20ports%2C/Tri%6Eity.txt%2ebak -  {}
 OPTIONS / -  {}
 GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET http://example.com/ -  {}
+GET http://passport.baidu.com/ -  {}
+GET / -  {}
+HEAD / -  {}
+GET / -  {}
+GET /favicon.ico -  {}
+GET / -  {}
+GET http://passport.baidu.com/ -  {}
+GET /script -  {}
