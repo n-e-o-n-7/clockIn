@@ -166,3 +166,27 @@ GET /favicon.ico -  {}
 GET / -  {}
 GET http://passport.baidu.com/ -  {}
 GET /script -  {}
+GET /script -  {}
+GET / -  {}
+GET / -  {}
+GET /script -  {}
+GET / -  {}
+GET /script -  {}
+HEAD http://112.124.42.80:63435/ -  {}
+GET / -  {}
+GET /script -  {}
+POST /update -  { id: '3170173', location: '浙江省 杭州市 余杭区' }
+POST /update -  { id: '31501347', location: '浙江省 台州市 温岭市' }
+POST /update -  { id: '31501347', location: '浙江省 台州市 温岭市' }
+GET /script -  {}
+HEAD / -  {}
+GET / -  {}
+HEAD / -  {}
+GET /system_api.php -  {}
+GET /c/version.js -  {}
+GET /streaming/clients_live.php -  {}
+GET /stalker_portal/c/version.js -  {}
+GET /client_area/ -  {}
+GET /stalker_portal/c/ -  {}
+HEAD / -  {}
+GET /script -  {}
