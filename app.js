@@ -64,7 +64,7 @@ let testLocation = l =>{
         if(l.length === 3){
             let v = 0
             try {
-               v = city[l[0]][l[1]][l[2]] 
+               v = city[l[0]][l[1]][l[2]]
             }catch(e){}
             return v===1
         }
@@ -96,6 +96,7 @@ app.use(async ctx => {
                         id:body.id,
                         pwd:body.pwd,
                         location:"校内 校内 校内",
+                        auto:"浙江省 杭州市"
                     })
                     write(users)
                     ctx.body = 'success'
@@ -111,10 +112,12 @@ app.use(async ctx => {
         if (testLocation(body.location)){
             try{
                 let users = read()
+                let l = body.location.split(" ")
                 users.filter(user=>
                     user.id === body.id
                 ).forEach(user => {
                     user.location = body.location
+                    user.auto =  l[0]+" "+l[1]
                 });
                 write(users)
                 ctx.body = 'success'

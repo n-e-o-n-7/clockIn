@@ -81,6 +81,7 @@ async function clockIn(user,today){
         "examenTitle": "师生报平安",
         "answer": {
             "填报日期":today,
+            "自动定位":user.auto,
             "目前所在地":user.location,
             "近14天是否有与疫情中、高风险地区人员的接触史？":"否",
             "近14天是否有与疑似、确诊人员的接触史?":"否",
