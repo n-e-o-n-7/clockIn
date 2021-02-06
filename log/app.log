@@ -190,3 +190,20 @@ GET /client_area/ -  {}
 GET /stalker_portal/c/ -  {}
 HEAD / -  {}
 GET /script -  {}
+nohup: 忽略输入
+GET /manager/html -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET /script -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+HEAD http://112.124.42.80:63435/ -  {}
+GET / -  {}
+HEAD / -  {}
+HEAD / -  {}
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPUNXTRYBTUTRYR -  { testPost: 'true' }
+HEAD http://110.242.68.4/ -  {}
