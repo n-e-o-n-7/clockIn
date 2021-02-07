@@ -207,3 +207,19 @@ HEAD / -  {}
 HEAD / -  {}
 POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPUNXTRYBTUTRYR -  { testPost: 'true' }
 HEAD http://110.242.68.4/ -  {}
+GET / -  {}
+GET / -  {}
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPEIJUBVIPUTRYR -  { testPost: 'true' }
+GET /manager/html -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET http://passport.baidu.com/ -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
