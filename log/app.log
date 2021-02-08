@@ -223,3 +223,44 @@ GET / -  {}
 GET / -  {}
 GET / -  {}
 GET / -  {}
+GET / -  {}
+GET /explicit_not_exist_path -  {}
+GET /admin/ -  {}
+GET /robots.txt -  {}
+GET /favicon.ico -  {}
+GET /query -  {}
+GET /login/img/product_logo.png -  {}
+GET /images/ofbiz.ico -  {}
+GET /attachment/logo/logo-default.png -  {}
+GET /r/cms/www/red/img/prompt.jpg -  {}
+GET /r/cms/www/red/style/swiper.min.js -  {}
+GET /phpMyAdmin/ -  {}
+GET /phpmyadmin/ -  {}
+GET /wcm/ -  {}
+GET / -  {}
+GET /explicit_not_exist_path -  {}
+GET /admin/ -  {}
+GET /robots.txt -  {}
+GET /favicon.ico -  {}
+GET /query -  {}
+GET /login/img/product_logo.png -  {}
+GET /images/ofbiz.ico -  {}
+GET /attachment/logo/logo-default.png -  {}
+GET /r/cms/www/red/img/prompt.jpg -  {}
+GET /r/cms/www/red/style/swiper.min.js -  {}
+GET /phpMyAdmin/ -  {}
+GET /phpmyadmin/ -  {}
+GET /wcm/ -  {}
+GET / -  {}
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPOODKRKDMNTRYR -  { testPost: 'true' }
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPRODIUUDMNTRYR -  { testPost: 'true' }
+GET /manager/html -  {}
+GET / -  {}
+HEAD http://112.124.42.80:63435/ -  {}
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPJKEORPJONTRYR -  { testPost: 'true' }
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPBINOXMJONTRYR -  { testPost: 'true' }
+GET / -  {}
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPDPEIDKOKNTRYR -  { testPost: 'true' }
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPRPNUNTNUNTRYR -  { testPost: 'true' }
+GET / -  {}
+GET / -  {}
