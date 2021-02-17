@@ -445,3 +445,12 @@ GET / -  {}
 GET / -  {}
 GET / -  {}
 GET / -  {}
+GET http://passport.baidu.com/ -  {}
+GET / -  {}
+GET /manager/html -  {}
+GET / -  {}
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPIIRNRVROBPRYR -  { testPost: 'true' }
+HEAD http://110.242.68.4/ -  {}
+GET http://passport.baidu.com/ -  {}
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPUIBKEINOBPRYR -  { testPost: 'true' }
+HEAD http://112.124.42.80:63435/ -  {}
