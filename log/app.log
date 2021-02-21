@@ -566,3 +566,14 @@ GET / -  {}
 GET / -  {}
 GET /login.aspx -  {}
 GET http://passport.baidu.com/ -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+HEAD http://112.124.42.80:63435/ -  {}
+GET /manager/html -  {}
+GET / -  {}
+GET / -  {}
+GET http://www.golfcapitolcity.com/golf/ecom_v2/send_to_friend.php -  {}
+GET /manager/html -  {}
+GET / -  {}
