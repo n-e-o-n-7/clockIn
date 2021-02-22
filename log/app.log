@@ -577,3 +577,16 @@ GET / -  {}
 GET http://www.golfcapitolcity.com/golf/ecom_v2/send_to_friend.php -  {}
 GET /manager/html -  {}
 GET / -  {}
+GET http://passport.baidu.com/ -  {}
+GET / -  {}
+GET http://5.188.210.227/echo.php -  {}
+GET http://passport.baidu.com/ -  {}
+GET http://fuwu.sogou.com/404/index.html -  {}
+GET http://fuwu.sogou.com/404/index.html -  {}
+GET / -  {}
+HEAD http://112.124.42.80:63435/ -  {}
+HEAD http://110.242.68.4/ -  {}
+GET /login -  {}
+GET / -  {}
+GET / -  {}
+GET http://passport.baidu.com/ -  {}
