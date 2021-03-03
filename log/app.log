@@ -752,3 +752,30 @@ GET / -  {}
 GET /script -  {}
 HEAD http://112.124.42.80:63435/ -  {}
 GET http://passport.baidu.com/ -  {}
+GET / -  {}
+GET /login.aspx -  {}
+GET / -  {}
+GET / -  {}
+GET /jmx-console/ -  {}
+GET http://passport.baidu.com/ -  {}
+GET / -  {}
+GET / -  {}
+HEAD /robots.txt -  {}
+GET / -  {}
+HEAD / -  {}
+GET /system_api.php -  {}
+GET /system_api.php -  {}
+GET /c/version.js -  {}
+GET /streaming/clients_live.php -  {}
+GET /stalker_portal/c/version.js -  {}
+GET /client_area/ -  {}
+GET /stalker_portal/c/ -  {}
+GET /stream/rtmp.php -  {}
+GET http://passport.baidu.com/ -  {}
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPNPNMONBYNMRYR -  { testPost: 'true' }
+POST http://check.best-proxies.ru/azenv.php?s=IJVJVNIOMDPBNNVCPXPEMJVRKNMRYR -  { testPost: 'true' }
+GET /Telerik.Web.UI.WebResource.axd?type=rau -  {}
+GET /login.aspx -  {}
+GET http://www.123cha.com/ -  {}
+GET http://www.baidu.com/ -  {}
+GET http://passport.baidu.com/ -  {}
